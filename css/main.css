@@ -1,0 +1,300 @@
+@import url("http://fonts.googleapis.com/css?family=Black+Ops+One");
+@font-face {
+  font-family: 'HelveticaNeueLight';
+  src: url("../fonts/HelveticaNeueLight.eot");
+  src: url("../fonts/HelveticaNeueLight.eot?=btf") format("embedded-opentype"), url("../fonts/HelveticaNeueLight.woff") format('woff'), url("../fonts/HelveticaNeueLight.ttf") format('truetype'), url("../fonts/HelveticaNeueLight.svg#HelveticaNeue-Light") format('svg');
+}
+@font-face {
+  font-family: 'HelveticaNeue';
+  src: url("../fonts/HelveticaNeue.eot");
+  src: url("../fonts/HelveticaNeue.eot?=btf") format("embedded-opentype"), url("../fonts/HelveticaNeue.woff") format('woff'), url("../fonts/HelveticaNeue.ttf") format('truetype'), url("../fonts/HelveticaNeue.svg#HelveticaNeue") format('svg');
+}
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: #fbfcfc;
+  color: #fbfcfc;
+  font-family: 'HelveticaNeueLight';
+}
+.container {
+  text-align: justify;
+}
+.i-1 {
+  background: url("../img/geometric.png");
+}
+.i-2 {
+  background: url("../img/color.jpg");
+}
+.i-3 {
+  background: url("../img/ij2NS7irXNUWG.png");
+}
+.i-4 {
+  background: url("../img/crosses.jpg");
+}
+.item {
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 660px;
+  overflow: auto;
+}
+.img-m-w {
+  margin-top: 65px;
+  width: 35%;
+}
+.img-right {
+  float: right;
+}
+.img-left {
+  float: left;
+}
+.i-main {
+  background: url("../img/403172.png");
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  height: 520px;
+  padding-top: 120px;
+}
+.i-main p {
+  font-size: 18px;
+  margin: 50px 0px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.i-main h1 {
+  font-size: 9em;
+  text-shadow: 1px 1px 0px #0f0f0f, 2px 2px 0px #0f0f0f, 3px 3px 0px #0f0f0f, 4px 4px 0px #0f0f0f, 5px 5px 0px #0f0f0f, 6px 6px 0px #0f0f0f;
+}
+.menu-fijo {
+  background: #3c4349;
+  -webkit-box-shadow: 0px 2px 10px #0f0f0f;
+  box-shadow: 0px 2px 10px #0f0f0f;
+  height: 41px;
+  margin: 0 auto;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 2;
+}
+.menu-fijo .btn {
+  background: #3c4349;
+  border: none;
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  line-height: 40px;
+  padding: 13px;
+}
+.menu-fijo .btn:hover {
+  background: #4a525a;
+}
+.menu-fijo .btn:active {
+  background: #383f45;
+}
+.menu-fijo .btn:hover {
+  color: #fbfcfc;
+}
+.menu-fijo .active {
+  color: #fbfcfc;
+}
+.btn {
+  border: 2px solid #fbfcfc;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  color: #fbfcfc;
+  font-family: 'HelveticaNeue';
+  font-size: 12px;
+  letter-spacing: 3px;
+  padding: 10px 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+.btn:hover {
+  background: rgba(255,255,255,0.5);
+  color: #0f0f0f;
+}
+.active {
+  background: #fbfcfc;
+  color: #0f0f0f;
+}
+.active:hover {
+  background: #fbfcfc;
+}
+.active:active {
+  background: #eaefef;
+}
+.text-left {
+  display: inline-block;
+  padding: 78px 60px 0;
+  width: 42%;
+}
+.text-left p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.text-right {
+  display: inline-block;
+  padding: 78px 60px 0;
+  position: absolute;
+  right: 0px;
+  width: 42%;
+}
+.text-right p {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.text-right ol {
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+.text-right ol li {
+  font-family: 'HelveticaNeue';
+  text-transform: uppercase;
+}
+.a-center {
+  margin-top: 15px;
+  text-align: center;
+}
+.white-popup {
+  margin: 20px auto;
+  position: relative;
+  text-align: justify;
+  width: 70%;
+}
+.white-popup header {
+  background: url("../img/hdr.jpg");
+  border-bottom: 1px solid #3c4349;
+  -webkit-border-radius: 3px 3px 0 0;
+  border-radius: 3px 3px 0 0;
+  padding: 20px;
+}
+.white-popup .cont {
+  background: #fbfcfc;
+  color: #0f0f0f;
+  padding: 40px 60px;
+}
+.video-container {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  position: relative;
+}
+.video-container iframe,
+.video-container video,
+.video-container object,
+.video-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.cont-contacto {
+  margin: 0 auto;
+  padding-top: 100px;
+  width: 40%;
+}
+.show-hidde {
+  background: #dedede;
+  -webkit-box-shadow: 0px 2px 10px #0f0f0f;
+  box-shadow: 0px 2px 10px #0f0f0f;
+  color: #fbfcfc;
+  display: none;
+  height: 29px;
+  left: 0;
+  margin-bottom: 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}
+.show-hidde img {
+  height: auto;
+  width: auto;
+}
+.encabezado {
+  height: 300px;
+  overflow: hidden;
+  padding: 40px;
+}
+.encabezado p {
+  font-family: 'HelveticaNeue';
+  margin: 0 auto;
+  margin-top: 20px;
+  width: 60%;
+}
+.html5 {
+  background: url("../img/headershapes2.png");
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+}
+.rest {
+  height: auto;
+  margin: 0 auto;
+  width: 15%;
+}
+.cont2 {
+  color: #0f0f0f;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  width: 85%;
+}
+.cont2 p {
+  margin-top: 10px;
+}
+.no-shadow {
+  text-shadow: none;
+  margin-top: 10px;
+}
+form {
+  font-family: 'HelveticaNeue';
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  text-align: left;
+  text-transform: uppercase;
+}
+form input {
+  border: 3px solid #3c4349;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 5px;
+  text-transform: uppercase;
+  width: 100%;
+}
+h1,
+h2 {
+  font-family: 'Black Ops One', cursive;
+  letter-spacing: 5px;
+  text-align: center;
+  text-shadow: 1px 1px 0px #0f0f0f;
+  text-transform: uppercase;
+}
+nav {
+  margin-top: 100px;
+  text-align: center;
+}
+ul li {
+  display: inline-block;
+  margin-right: 5px;
+  list-style: none;
+}
+img {
+  height: auto;
+  width: 100%;
+}

@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+	<title>Flat HTML5 Site</title>
+	<link rel="stylesheet" type="text/css" href="css/main.css"/>
+	<link rel="stylesheet" type="text/css" href="css/responsive.css"/>
+	<link rel="stylesheet" type="text/css" href="css/magnific-popup.css"/>
+	<!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="container">
+	<section class="i-main" id="inicio">
+		<h1>Flat Site</h1>
+		<p>
+			Aprende <b>HTML5</b>, <b>CSS3</b>, y muchísimo más, con los mejores tutoriales y tutores de la web.
+		</p>
+		<nav id="menu-contenedor">
+			<div class="show-hidde">
+				<a id="s-h-btn" class="ss" href="#">
+					<img src="img/button.png" alt="">
+				</a>
+			</div>
+			<ul id="menu">
+				<li><a class="btn active ss" href="#inicio">inicio</a></li>
+				<li>
+					<a class="btn ss" href="#html5">HTML5</a>
+				</li>
+				<li>
+					<a class="btn ss" href="#css3">CSS3</a>
+				</li>
+				<li>
+					<a class="btn ss" href="#servicios">Servicios</a>
+				</li>
+				<li>
+					<a class="btn ss" href="#contacto">contácto</a>
+				</li>
+			</ul>
+		</nav>
+	</section>	
+	<section class="item i-1" id="html5">
+		<section class="img-m-w img-left">
+			<img src="img/Macbook-html5.png" alt="">
+		</section>
+		<article class="text-right">
+			<h2>¿ que es HTML5 ?</h2>
+			<p>
+				<b>HTML5</b> (<b>H</b>yper<b>T</b>ext <b>M</b>arkup <b>L</b>anguage, versión 5) es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: un «clásico» HTML (text/html), la variante conocida como HTML5 y una variante XHTML conocida como sintaxis XHTML5 que deberá ser servida como XML (XHTML) (application/xhtml+xml)
+			</p>
+			<div class="video-container">
+				<video controls poster="img/html5.jpg">
+					<source src="video/html5.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'/>
+					<source src="video/html5.webm" type='video/webm; codecs="vp8, vorbis"' />
+					<p>SU NAVEGADOR NO SOPORTA LA ETIQUETA VIDEO DE HTML5</p>
+				</video>
+			</div>
+			<div class="a-center">
+				<ul>
+					<li>
+						<a class="btn inactive" href="html5.html">Aprende HTML5</a>
+					</li>
+					<li>
+						<a class="btn inactive open-popup-link" href="#html5About">más Sobre HTML5</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+	</section>
+	<section class="item i-2" id="css3">
+		<section class="img-m-w img-right">
+			<img src="img/Macbook-css3.png" alt="">
+		</section>
+		<article class="text-left">
+			<h2>¿ que es CSS3 ?</h2>
+			<p>
+				Las <b>hojas de estilo en cascada</b> o (<b>Cascading Style Sheets</b>, o sus siglas <b>CSS</b>) hacen referencia a un lenguaje de hojas de estilos usado para describir la presentación semántica (el aspecto y formato) de un documento escrito en lenguaje de marcas.
+			</p>
+			<div class="video-container">
+				<video controls poster="img/css3.jpg">
+					<source src="video/CSS3.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+					<source src="video/CSS3.webm" type='video/webm; codecs="vp8, vorbis"'>
+					<p>SU NAVEGADOR NO SOPORTA LA ETIQUETA VIDEO DE HTML5</p>
+				</video>
+			</div>
+			<div class="a-center">
+				<ul>
+					<li>
+						<a class="btn inactive" href="css3.html">Aprende CSS3</a>
+					</li>
+					<li>
+						<a class="btn inactive open-popup-link" href="#css3About">más Sobre CSS3</a>
+					</li>
+				</ul>
+			</div>
+		</article>
+	</section>
+	<section class="item i-3" id="servicios">
+		<section class="img-m-w img-left">
+			<img src="img/engranaje-hi.png" alt="">
+		</section>
+		<article class="text-right">
+			<h2>Servicios</h2>
+				<ol id="last">
+					<li>Maquetación Web con los ultimos estandares (HTML5 y CSS3).</li>
+					<li>Posicionamiento En Buscadores.</li>
+					<li>Difundición de su producto en las redes sociales.</li>
+					<li>Personalizacion de páginas Web</li>
+					<li>Web Hosting De Calidad</li>
+					<li>Dominios .COM, .NET, .ORG, .EDU, .CO, etc.</li>
+					<li>Analitycs</li>
+					<li>Anuncios</li>
+				</ol>
+				<div class="a-center">
+			</div>
+		</article>
+	</section>
+	<section class="item i-4" id="contacto">
+		<article class="cont-contacto">
+			<h2>Formulario de contácto</h2>
+			<form>
+				Nombre: <input type="text">
+				Email: <input type="email" name="email">
+				Fecha Nacimiento: <input type="date" name="bday">
+				Telefono: <input type="tel" name="usrtel">
+				Web: <input type="url" name="homepage">
+				<div class="a-center">
+					<button type="submit" class="btn active">Enviar</button>
+				</div>
+			</form>
+		</article>
+	</section>
+</div>
+
+<!--DIV MAGNIFIC-POPUP-->
+
+<article id="css3About" class="white-popup mfp-hide">
+  <header>
+  	<h2>CSS3</h2>
+  </header>
+  <div class="cont">
+  	<p>
+  		A diferencia de CSS2, que fue una gran especificación que definía varias funcionalidades, CSS3 está dividida en varios documentos separados, llamados "módulos".
+  	</p>
+  	<p>
+  		Cada módulo añade nuevas funcionalidades a las definidas en CSS2, de manera que se preservan las anteriores para mantener la compatibilidad.
+  	</p>
+  	<p>
+  		Los trabajos en el CSS3, comenzaron a la vez que se publicó la recomendación oficial de CSS2, y los primeros borradores de CSS3 fueron liberados en junio de 1999.
+  	</p>
+  	<p>
+  		Debido a la modularización del CSS3, diferentes módulos pueden encontrarse en diferentes estadios de su desarrollo, de forma que a fechas de noviembre de 2011, hay alrededor de cincuenta módulos publicados, tres de ellos se convirtieron en recomendaciones oficiales de la W3C en 2011: "Selectores", "Espacios de nombres" y "Color".
+  	</p>
+  	<p>
+  		Algunos módulos, como "Fondos y colores", "Consultas de medios" o "Diseños multicolumna" están en fase de "candidatos", y considerados como razonablemente estables, a finales de 2011, y sus implementaciones en los diferentes navegadores son señaladas con los prefijos del motor del mismo.
+  	</p>
+  </div>
+</article>
+
+<article id="html5About" class="white-popup mfp-hide">
+  <header>
+  	<h2>HTML5</h2>
+  </header>
+  <div class="cont">
+  	<p>
+  		HTML5 (HyperText Markup Language, versión 5) es la quinta revisión importante del lenguaje básico de la World Wide Web, HTML. HTML5 especifica dos variantes de sintaxis para HTML: un «clásico» HTML (text/html), la variante conocida como HTML5 y una variante XHTML conocida como sintaxis XHTML5 que deberá ser servida como XML (XHTML) (application/xhtml+xml).1 2 Esta es la primera vez que HTML y XHTML se han desarrollado en paralelo.
+	</p>
+  	<p>
+  		Todavía se encuentra en modo experimental, lo cual indica la misma W3C; aunque ya es usado por múltiples desarrolladores web por sus avances, mejoras y ventajas.
+  	</p>
+  	<p>
+  		Al no ser reconocido en viejas versiones de navegadores por sus nuevas etiquetas, se le recomienda al usuario común actualizar a la versión más nueva, para poder disfrutar de todo el potencial que provee HTML5.
+  	</p>
+  </div>
+</article>
+
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.js"></script>
+<!--<script src="js/jquery.js"></script>-->
+<script src="js/jquery.magnific-popup.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
