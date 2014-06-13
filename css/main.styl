@@ -1,16 +1,7 @@
 vendor-prefixes ?= webkit moz official
 @import 'nib'
 @import url("normalize.css")
-@import url("http://fonts.googleapis.com/css?family=Lato:300")
-@font-face
-	font-family: 'HelveticaNeueLight'
-	src: url("../fonts/HelveticaNeueLight.eot")
-	src: url("../fonts/HelveticaNeueLight.eot?=btf") format("embedded-opentype"), url("../fonts/HelveticaNeueLight.woff") format('woff'), url("../fonts/HelveticaNeueLight.ttf") format('truetype'), url("../fonts/HelveticaNeueLight.svg#HelveticaNeue-Light") format('svg')
-
-@font-face
-	font-family: 'HelveticaNeue'
-	src: url("../fonts/HelveticaNeue.eot")
-	src: url("../fonts/HelveticaNeue.eot?=btf") format("embedded-opentype"), url("../fonts/HelveticaNeue.woff") format('woff'), url("../fonts/HelveticaNeue.ttf") format('truetype'), url("../fonts/HelveticaNeue.svg#HelveticaNeue") format('svg')
+@import url("http://fonts.googleapis.com/css?family=Lato:100,300")
 
 verde = #1aaf5d
 azul = #203338
@@ -37,7 +28,8 @@ hovact(n)
 
 body
 	background #dedede
-	font-family 'HelveticaNeueLight', Helvetica, Arial, sans-serif
+	font-family 'Lato', sans-serif
+	font-weight 300
 	text-rendering optimizeLegibility
 	& ::selection
 		background azul
@@ -136,8 +128,7 @@ header
 				text-transform uppercase
 				top 31em
 				z-index 3
-				&:hover
-					background #ccc
+				hovact(#CCC)
 
 		p
 			color #ccc
@@ -169,7 +160,7 @@ header
 	h2
 		color verde
 		font-size 16px
-		font-weight 100
+		font-weight 300
 		position relative
 	.fa
 		left 0
@@ -185,7 +176,7 @@ header
 	background white
 	color #333
 	float left
-	font-family 'HelveticaNeue'
+	font-family 'Lato', sans-serif
 	font-size 12px
 	letter-spacing 2px
 	padding 15px 0
@@ -224,9 +215,12 @@ header
 	padding 10px
 	position absolute
 	right 0
+	text-align center
+	top 30px
 	width 27%
 	z-index 1
 	img
+		max-height 310px
 		width 100%
 
 .text
@@ -246,9 +240,8 @@ header
 
 .dest
 	color verde
-	font-family 'HelveticaNeue'
 	font-style italic
-	font-weight 600
+	font-weight bold
 
 footer
 	background azul
