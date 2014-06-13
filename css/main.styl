@@ -13,6 +13,9 @@ vendor-prefixes ?= webkit moz official
 	src: url("../fonts/HelveticaNeue.eot?=btf") format("embedded-opentype"), url("../fonts/HelveticaNeue.woff") format('woff'), url("../fonts/HelveticaNeue.ttf") format('truetype'), url("../fonts/HelveticaNeue.svg#HelveticaNeue") format('svg')
 
 verde = #1aaf5d
+azul = #203338
+gris-oscuro = #202527
+gris-claro = #494949
 
 bgcolor(n)
 	background n
@@ -37,7 +40,7 @@ body
 	font-family 'HelveticaNeueLight', Helvetica, Arial, sans-serif
 	text-rendering optimizeLegibility
 	& ::selection
-		background #203338
+		background azul
 		color white
 
 	p
@@ -64,26 +67,26 @@ header
 	position absolute
 	z-index 3
 
-nav
-	margin 0 auto
-	margin-bottom 30px
-	max-width 1250px
-	text-align right
-	width 90%
-	ul li
-		display inline-block
-		padding 20px 0
-		a
-			color #494949
-			font-size 11px
-			letter-spacing 2px
-			padding 20px 18px 17px 18px
-			transition opacity 0.2s ease-out 0.1s
-			text-transform uppercase
-			&:hover
-				opacity 1
-				filter none
-				border-bottom 2px solid #ccc
+	nav
+		margin 0 auto
+		margin-bottom 30px
+		max-width 1250px
+		text-align right
+		width 90%
+		ul li
+			display inline-block
+			padding 20px 0
+			a
+				color gris-claro
+				font-size 11px
+				letter-spacing 2px
+				padding 20px 18px 17px 18px
+				transition opacity 0.2s ease-out 0.1s
+				text-transform uppercase
+				&:hover
+					opacity 1
+					filter none
+					border-bottom 2px solid #ccc
 
 	h2
 		color #464545
@@ -99,7 +102,7 @@ nav
 	z-index 99
 
 	.layer
-		background url("../img/1.png") #202527 center fixed
+		background url("../img/1.png") gris-oscuro center fixed
 		height inherit
 		position absolute
 		overflow hidden
@@ -123,7 +126,7 @@ nav
 			a
 				background verde
 				border-radius 3px
-				color #202527
+				color gris-oscuro
 				display inline-block
 				font-size 13px
 				letter-spacing 2px
@@ -214,6 +217,17 @@ nav
 	margin-bottom 20px
 	overflow auto
 	width 70%
+.add
+	background #eee
+	border-radius 3px
+	display inline-block
+	padding 10px
+	position absolute
+	right 0
+	width 27%
+	z-index 1
+	img
+		width 100%
 
 .text
 	background #eee
@@ -227,6 +241,7 @@ nav
 	margin-top 70px
 	max-width 1250px
 	padding-top 30px
+	position relative
 	width 90%
 
 .dest
@@ -236,7 +251,7 @@ nav
 	font-weight 600
 
 footer
-	background #203338
+	background azul
 	color verde
 	font-size 12px
 	letter-spacing 2px
